@@ -13,7 +13,7 @@ jobs:
         name: Build
         run: |
           yarn install
-          yarn build --public-url ${{ github.event.repository.name }}
+          yarn build --public-url /${{ github.event.repository.name }}
       -
         name: Deploy to GitHub Pages
         if: success()
