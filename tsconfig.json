@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "outDir": "dist/",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "allowJs": true,
+      "noEmit": true,
+      "moduleResolution": "node",
+      "module": "esnext",
+      "target": "ES5",
+      "jsx": "react",
+      "experimentalDecorators": true,
+      "noUnusedLocals": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "lib": ["DOM", "ES5"],
+      "baseUrl": ".",
+      "paths": {
+        "*": ["*"]
+      }
+    },
+    "exclude": ["node_modules/**/*", "src/__tests__/*", "__generated__/*"] 
+}
